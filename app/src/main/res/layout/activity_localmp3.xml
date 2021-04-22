@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+               android:id="@+id/imageView2"
+               android:src="@drawable/tt"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:id="@+id/txt"
+              android:text="播放音乐"
+              android:textSize="24sp"/>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                     android:id="@+id/Start"
+                     android:src="@drawable/music_play"/>
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                     android:id="@+id/Stop"
+                     android:src="@drawable/music_stop"/>
+    </LinearLayout>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="《用户名》"
+              android:id="@+id/text"
+              android:textSize="20dp"
+              android:textColor="@color/teal_200"
+              android:layout_gravity="center_horizontal"
+
+    />
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="返回登录页面"
+            android:id="@+id/localBtn"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/holo_orange_light"
+    />
+
+</LinearLayout>
